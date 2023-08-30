@@ -22,6 +22,7 @@ const Navbar = () => {
                                     <li><Link href={'/'}>Home</Link></li>
                                     <li><Link href={'/api/redirect'}>Redirect</Link></li>
                                     <li><Link href={'/api/welcome'}>Response</Link></li>
+                                    <li><Link href={'/authorization'}>Authorization</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -30,6 +31,7 @@ const Navbar = () => {
                             <li><Link href={'/'}>Home</Link></li>
                             <li><Link href={'/api/redirect'}>Redirect</Link></li>
                             <li><Link href={'/api/welcome'}>Response</Link></li>
+                            <li><Link href={'/authorization'}>Authorization</Link></li>
                             </ul>
                         </div>
                     </div>
