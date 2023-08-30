@@ -1,8 +1,9 @@
+import SetCookie from "@/components/SetCookie";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <SetCookie/>
     </div>
   )
 }
