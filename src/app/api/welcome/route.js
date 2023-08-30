@@ -3,17 +3,11 @@ import { NextResponse } from "next/server";
 import { Headers } from 'next/headers';
 import { redirect } from "next/navigation";
 
-export async function POST(req, res) {
+export async function GET(req, res) {
 
-    // return NextResponse.json([ 
-    //     {name: "name", age: 20},
-    //     {name: "name", age: 20},
-    //     {name: "name", age: 20},
-
-
-    // ], 
-    // {
-    //     status: 200,
-    //     headers:{'set-cookie': `token=123;path=/;`}
-    // })
+    return NextResponse.json({
+        "message": "Welcome to our Api!",
+        "version": "1.0"
+        
+    })
 }

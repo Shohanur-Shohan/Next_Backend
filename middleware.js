@@ -11,11 +11,9 @@ export async function middleware(req, res){
     //     redirect('/')
     // }
 
-
-
 }
 
 //where middleware wiill work
-export const config = {
-    matcher: '/:path*'
-}
+// export const config = {
+//     matcher: '/:path*'
+// }
