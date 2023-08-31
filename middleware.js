@@ -11,6 +11,12 @@ export async function middleware(req, res){
     //     redirect('/')
     // }
 
+    if(req.NextUrl.pathname.startsWith === "api/authorization"){
+
+        return NextResponse.next();
+
+    }
+
 }
 
 //where middleware wiill work
